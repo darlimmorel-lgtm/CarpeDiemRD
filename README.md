@@ -709,7 +709,6 @@ Teléfono alternativo:
 
 Instagram:
 @carpediem.rd
-@carpe_diemrd
 
 Horarios:
 
@@ -1034,3 +1033,4 @@ npm run dev
 "# Carpe-Diem-RD"
 "# Carpe-Diem-RD"
 "# carpediem-experience"
+"# CarpeDiemRD" 
