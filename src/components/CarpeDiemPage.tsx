@@ -639,13 +639,13 @@ function Events({ onEvent }: { onEvent: () => void }) {
 
 const gallery = [
   { category: "Ambiente", image: a3, alt: "Mesas y sillones del restaurante junto a la barra" },
-  { category: "Gastronomía", image: a16, alt: "Bocados dorados con guarnición verde en un cuenco" },
+  { category: "Cócteles", image: a16, alt: "Bebidas en copas decoradas en la barra" },
   {
-    category: "Ambiente",
+    category: "Cócteles",
     image: a15,
     alt: "Selección de botellas y vitrinas iluminadas de la barra",
   },
-  { category: "Gastronomía", image: a17, alt: "Plato con aguacate, crema y flores comestibles" },
+  { category: "Cócteles", image: a17, alt: "Cóctel con aguacate, crema y flores comestibles" },
   {
     category: "Celebraciones",
     image: a2,
@@ -662,22 +662,22 @@ const gallery = [
     alt: "Vista amplia del salón con mesas y asientos de Carpe Diem RD",
   },
   {
-    category: "Gastronomía",
+    category: "Cócteles",
     image: a19,
-    alt: "Plato cremoso servido en vajilla azul y decorado con una flor",
+    alt: "Cóctel servido en vajilla azul y decorado con una flor",
   },
-  { category: "Gastronomía", image: a1, alt: "Plato gratinado con queso y flores comestibles" },
-  { category: "Gastronomía", image: a21, alt: "Bruschetta con setas y hojas frescas" },
-  { category: "Gastronomía", image: a14, alt: "Carne con vegetales y crema sobre plato artesanal" },
+  { category: "Ambiente", image: a1, alt: "Detalle del ambiente del restaurante" },
+  { category: "Cócteles", image: a21, alt: "Cóctel decorado con setas y hojas frescas" },
+  { category: "Cócteles", image: a14, alt: "Cóctel con vegetales y crema sobre plato artesanal" },
   { category: "Cócteles", image: a4, alt: "Bartender sirviendo un cóctel rosado en copa martini" },
-  { category: "Cócteles", image: a5, alt: "Cóctel rosado decorado con flores en la barra" },
-  { category: "Cócteles", image: a6, alt: "Cóctel ámbar en copa coupé con espuma" },
-  { category: "Gastronomía", image: a18, alt: "Arroz con pollo, crema y flores comestibles" },
-  { category: "Cócteles", image: a8, alt: "Cóctel cítrico decorado con flor deshidratada" },
-  { category: "Cócteles", image: a9, alt: "Cóctel rojo en la barra con luces cálidas" },
-  { category: "Cócteles", image: a10, alt: "Cóctel en capas servido en la barra" },
-  { category: "Cócteles", image: a11, alt: "Cóctel tropical flameado con piña" },
-  { category: "Cócteles", image: a12, alt: "Cóctel rosado escarchado en vaso alto" },
+  { category: "Gastronomía", image: a5, alt: "Plato rosado decorado con flores en la barra" },
+  { category: "Gastronomía", image: a6, alt: "Plato gratinado en copa coupé con espuma" },
+  { category: "Cócteles", image: a18, alt: "Cóctel con crema y flores comestibles" },
+  { category: "Gastronomía", image: a8, alt: "Plato cítrico decorado con flor deshidratada" },
+  { category: "Gastronomía", image: a9, alt: "Plato rojo en la barra con luces cálidas" },
+  { category: "Gastronomía", image: a10, alt: "Plato en capas servido en la barra" },
+  { category: "Gastronomía", image: a11, alt: "Plato tropical flameado con piña" },
+  { category: "Gastronomía", image: a12, alt: "Plato rosado escarchado en vaso alto" },
   { category: "Cócteles", image: a13, alt: "Cóctel amarillo en copa coupé" },
 ];
 
@@ -917,9 +917,6 @@ function Contact() {
             </a>
             <a href={business.instagram} {...external}>
               <Instagram /> @carpediem.rd
-            </a>
-            <a href={business.instagramAlt} {...external}>
-              <Instagram /> @carpe_diemrd
             </a>
             <div className="hours">
               <Clock3 />

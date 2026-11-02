@@ -7,7 +7,6 @@ export const business = {
     "https://www.google.com/maps/search/?api=1&query=Carpe+Diem+RD+Av.+Espa%C3%B1a+56+Santo+Domingo+Este",
   menuUrl: "https://www.menudigital.com.do/new-carpe-diem/",
   instagram: "https://www.instagram.com/carpediem.rd/",
-  instagramAlt: "https://www.instagram.com/carpe_diemrd/",
 } as const;
 
 export type MenuItem = {
@@ -609,9 +608,9 @@ export const menuCategories: MenuCategory[] = [
     label: "Tequilas",
     items: [
       { name: "Don Julio Añejo", bottle: "RD$6,650", glass: "RD$800" },
-      { name: "Don Julio Blanco", bottle: "RD$6,150", glass: "RD$800" },
+      { name: "Don Julio Blanco", bottle: "RD$5,350", glass: "RD$800" },
       { name: "Don Julio Reposado", bottle: "RD$7,350", glass: "RD$850" },
-      { name: "Don Julio 70", bottle: "RD$9,500" },
+      { name: "Don Julio 70", bottle: "RD$6,550" },
       { name: "Don Julio 1942 · 1750 ml", bottle: "RD$35,400" },
       { name: "Don Julio 1942 · 750 ml", bottle: "RD$17,850" },
       { name: "Casa Amigos Añejo", bottle: "RD$6,750", glass: "RD$550" },
@@ -623,8 +622,6 @@ export const menuCategories: MenuCategory[] = [
       { name: "Jimador", bottle: "RD$2,550", glass: "RD$300" },
       { name: "José Cuervo", bottle: "RD$3,250", glass: "RD$300" },
       { name: "José Cuervo Reserva de la Familia", bottle: "RD$14,650" },
-      { name: "1800 Cristalino", bottle: "RD$5,900" },
-      { name: "Maestro Dobel", bottle: "RD$5,550" },
       { name: "Patrón Silver o Reposado", bottle: "RD$6,200" },
       { name: "Kosmo Reposado o Cristalino", bottle: "RD$15,650" },
     ],
