@@ -922,9 +922,9 @@ function Contact() {
               <Clock3 />
               <div>
                 <strong>Domingo a jueves</strong>
-                <span>10:00 a. m. – 2:00 a. m.</span>
+                <span>9:00 a. m. – 2:00 a. m.</span>
                 <strong>Viernes y sábado</strong>
-                <span>10:00 a. m. – 3:00 a. m.</span>
+                <span>9:00 a. m. – 3:00 a. m.</span>
               </div>
             </div>
             <p className="fine-print">
@@ -1004,9 +1004,9 @@ function Footer({ onReserve }: { onReserve: () => void }) {
         <div>
           <h3>Horario</h3>
           <p>
-            Dom–Jue · 10 a. m.–2 a. m.
+            Dom–Jue · 9 a. m.–2 a. m.
             <br />
-            Vie–Sáb · 10 a. m.–3 a. m.
+            Vie–Sáb · 9 a. m.–3 a. m.
           </p>
           <Button variant="gold" onClick={onReserve}>
             Reservar
